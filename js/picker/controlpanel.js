@@ -1,6 +1,6 @@
 $patterns = "";
 for(var i=1; i<= 15; i++){
-	$img = 	"http://www.jellythemes.com/themes/zenitewp/wp-content/themes/Zenite/js/picker/style-picker/pattern"+i+".jpg";	
+	$img = 	"https://www.jellythemes.com/themes/zenitewp/wp-content/themes/Zenite/js/picker/style-picker/pattern"+i+".jpg";	
 	$patterns += '<li>';
 	$patterns += '<a id="pattern'+i+'"  href="" title="">';
 	$patterns += '<img src="'+ $img +'" alt="pattern'+i+'" title="pattern'+i+'"/>'
@@ -11,7 +11,7 @@ for(var i=1; i<= 15; i++){
 $color = ["blue","gold","green","grey","olivegreen","orange","purple","red","turquoiseblue","violet"];
 $colors = "";
 for(var i=0; i<$color.length; i++){
-	$img = 	"http://www.jellythemes.com/themes/zenitewp/wp-content/themes/Zenite/js/picker/style-picker/"+$color[i]+".jpg";	
+	$img = 	"https://www.jellythemes.com/themes/zenitewp/wp-content/themes/Zenite/js/picker/style-picker/"+$color[i]+".jpg";	
 	$colors += '<li>';
 	$colors += '<a id="'+$color[i]+'" href="" title="">';
 	$colors += '<img src="'+ $img +'" alt="color-'+$color[i]+'" title="color-'+$color[i]+'"/>'
@@ -22,13 +22,13 @@ for(var i=0; i<$color.length; i++){
 
 $str = '<!-- **Ultimate Style Picker Wrapper** -->';
 $str += '<div class="ultimate-style-picker-wrapper">';
-$str += '	<a href="" title="" class="style-picker-ico"> <img src="http://www.jellythemes.com/themes/zenitewp/wp-content/themes/Zenite/js/picker/style-picker/picker-icon.png" alt="" title="" /> </a>';
+$str += '	<a href="" title="" class="style-picker-ico"> <img src="https://www.jellythemes.com/themes/zenitewp/wp-content/themes/Zenite/js/picker/style-picker/picker-icon.png" alt="" title="" /> </a>';
 $str += '	<div id="ultimate-style-picker">';
 $str += '   	<h2> Select Your Style </h2>';
 $str += '       <h3> Choose your layout </h3>';
 $str += '		<ul class="layout-picker">';
-$str += '       	<li> <a id="fullwidth" href="" title="" class="selected"> <img src="http://www.jellythemes.com/themes/zenitewp/wp-content/themes/Zenite/js/picker/style-picker/fullwidth.jpg" alt="" title="" /> </a> </li>';
-$str += '       	<li> <a id="boxed" href="" title=""> <img src="http://www.jellythemes.com/themes/zenitewp/wp-content/themes/Zenite/js/picker/style-picker/boxed.jpg" alt="" title="" /> </a> </li>';
+$str += '       	<li> <a id="fullwidth" href="" title="" class="selected"> <img src="https://www.jellythemes.com/themes/zenitewp/wp-content/themes/Zenite/js/picker/style-picker/fullwidth.jpg" alt="" title="" /> </a> </li>';
+$str += '       	<li> <a id="boxed" href="" title=""> <img src="https://www.jellythemes.com/themes/zenitewp/wp-content/themes/Zenite/js/picker/style-picker/boxed.jpg" alt="" title="" /> </a> </li>';
 $str += '		</ul>';
 $str += '		<div class="hr"> </div>';
 $str += '		<div id="pattern-holder" style="display:none;">';

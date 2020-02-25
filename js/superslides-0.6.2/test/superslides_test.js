@@ -1,7 +1,7 @@
 (function($) {
   /*
     ======== A Handy Little QUnit Reference ========
-    http://api.qunitjs.com/
+    https://api.qunitjs.com/
 
     Test methods:
       module(name, {[setup][ ,teardown]})
