@@ -135,8 +135,8 @@
 	.half{float: none; margin: auto; width: 400px; padding: 80px 40px 120px;}
 	.half:first-child{padding-bottom: 0px;}
 	.content .full .half{ padding-left:0; padding-right:0;}
-	.next-featured{margin-left: 55px;}
-	.prev-featured{margin-right: 55px;}
+	.next-featured{margin-left: 35px;}
+	.prev-featured{margin-right: 35px;}
 	.nav-featured{width: 311px;}
 	.title.one{font-size: 40px; padding: 80px 40px 11px;}
 	.title.two{font-size: 17px; padding: 0px 40px; width: auto;}
